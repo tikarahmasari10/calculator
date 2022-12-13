@@ -21,6 +21,4 @@ steps:
   displayName: 'npm install and build'
   
  - npm test: |
-    npm install
-    npm run build 
-displayName: 'npm install, build, and test'
+  displayName: 'npm install, build, and test'
